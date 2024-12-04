@@ -1,5 +1,7 @@
-<<<<<<< HEAD
+tests
+venv
+data/messages.csv
+Loading/load_googledrive.py
+.env
 popaie/
-=======
 \aivenv
->>>>>>> 4359328 (Sauvegarde des modifications locales)

@@ -1,8 +1,11 @@
-fastapi           
-uvicorn
-faiss-cpu
-pydantic
-transformers
+fastapi==0.95.0                # Framework pour l'API web
+uvicorn==0.22.0                # Serveur ASGI pour lancer FastAPI (en mode développement, utilisez --reload)
+faiss-cpu==1.7.3               # FAISS pour la recherche de documents (CPU version)
+pydantic==1.10.5               # Pour la validation des données dans FastAPI (via BaseModel)
+transformers==4.33.0           # Si vous utilisez des modèles pré-entraînés comme BERT pour les embeddings
+langchain_community==0.3.8      #framework pour tout ce qui est rag, llm, loading, chunking....
+langchain_google_community==2.0.2
+langchain_text_splitters==0.3.2
 torch
 pymongo
 langchain
@@ -13,7 +16,6 @@ argparse
 streamlit
 langchain-groq
 langchain_core
-langchain_community
 PyPDF2
 pypdf
 langchain_google_genai
