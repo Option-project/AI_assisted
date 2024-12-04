@@ -6,3 +6,16 @@ transformers==4.33.0           # Si vous utilisez des modèles pré-entraînés 
 langchain_community==0.3.8      #framework pour tout ce qui est rag, llm, loading, chunking....
 langchain_google_community==2.0.2
 langchain_text_splitters==0.3.2
+torch
+pymongo
+langchain
+bs4
+gradio
+lxml
+argparse
+streamlit
+langchain-groq
+langchain_core
+PyPDF2
+pypdf
+langchain_google_genai
