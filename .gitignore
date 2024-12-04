@@ -4,4 +4,4 @@ data/messages.csv
 Loading/load_googledrive.py
 .env
 popaie/
-\aivenv
+aivenv/
